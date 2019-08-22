@@ -1,5 +1,6 @@
 # pdf2jpg
 
+```c#
 HttpResponseMessage PostFile(string url, string filePath, string parameterName)
 {
   FileInfo file = new FileInfo(filePath);
@@ -18,3 +19,4 @@ HttpResponseMessage PostFile(string url, string filePath, string parameterName)
     return httpClient.PostAsync(url, content).Result;
   }
 }
+```
