@@ -1,5 +1,12 @@
 # pdf2jpg
 
+Docker repository :
+```bash
+docker pull svivenot/pdf2jpg
+```
+
+Code to call the web api :
+
 ```c#
 HttpResponseMessage PostFile(string url, string filePath, string parameterName)
 {
